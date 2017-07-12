@@ -1,0 +1,196 @@
+/* banner */
+/* .bian{ */
+		/* width: 750px; */
+/* 		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+	}
+	.list{
+		width: 4550px;
+		z-index: 99;
+		position: absolute;
+		top: 20px; */
+		/* left: 10px; *//* 
+		overflow: hidden; */
+
+/* 	}
+	.list li{
+		float: left;
+		width: 750px;
+		overflow: hidden;
+	}
+	.kuang{
+		height: 400px;
+		width: 750px;
+		z-index: 1;
+		/* border-top: 20px solid gray;
+		border-radius: 10px;
+		border-bottom: 20px solid gray; */
+/* 	}
+	.next{
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		color: white;
+		font-size: 50px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 50px;
+		cursor: pointer;
+		border: 1px solid transparent;
+		position: absolute;
+		z-index: 101;
+		top: 195px;
+		right: 0px;
+		background-color: gray;
+		border-radius: 14px;
+	}
+	.prev{
+		position: absolute;
+		left: 0px;
+		top: 195px;
+		width: 50px;
+		height: 50px;
+		color: white;
+		z-index: 101;
+		font-size: 50px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 50px;
+		cursor: pointer;
+		border: 1px solid transparent;
+		background-color: gray;
+		border-radius: 14px;
+	}
+	.nav{
+		width: 160px;
+		overflow: hidden;
+		position: absolute;
+		bottom: 25px;
+		right: 15px;
+		z-index: 99;
+	}
+	.nav li{
+		border: 3px solid gray;
+		width: 20px;
+		height: 20px;
+		float: left;
+	}
+	.click_after{
+		background-color: white;
+	} */
+ul.pic-list,#main .left .box1 .tiao_bottom,#main .left .box2 .tiao_bottom,#main,#main .right ul{
+	overflow: hidden;
+}
+ul.pic-list{
+	width: 5000px;
+	position: relative;
+}
+ul.pic-list li,#main .left .box1 .tiao_bottom img,#main .left .box1 .tiao_bottom .p2,#main .left .box2 .tiao_bottom img,#main .left .box2 .tiao_bottom .p2,#main .left,#main .right{
+	float: left;
+}
+#main .right ul li{
+	float: left;
+}
+#banner{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.next,.prev{
+	font-size: 50px;
+	font-weight: 600;
+	background:rgba(222,173,2,0.7); 
+	color: #fff;
+	width: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+.next{
+	position: absolute;
+	top: 230px;
+	right:0px;
+}
+.prev{
+	position: absolute;
+	top: 230px;
+	left:0px;
+}
+.list{
+	width: 160px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 25px;
+	left: 299px;
+	z-index: 99;
+}
+.list li{
+	border: 3px solid #dead02;
+	width: 20px;
+	height: 20px;
+	float: left;
+	border-radius: 50%;
+	margin-left: 10px;
+	cursor: pointer;
+}
+/* main */
+#main{
+	margin-top: 40px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 40px;
+}
+#main .left{
+	width: 647px;
+	margin-left: 100px;
+}
+#main .left h4{
+	border-bottom: 1px solid #000;
+	color: orange;
+}
+#main .left .box1 .p1{
+	word-spacing: 150px;
+	padding-top: 20px;
+}
+#main .left .box1 .p2{
+	width: 406px;
+	padding-top: 5px;
+}
+#main .left .box1 .tiao_bottom{
+
+	margin-top: 30px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #000;
+}
+
+#main .left .box2 .p1{
+	word-spacing: 150px;
+	padding-top: 20px;
+}
+#main .left .box2 .p2{
+	width: 406px;
+	padding-top: 5px;
+}
+#main .left .box2 .tiao_bottom{
+
+	margin-top: 30px;
+	padding-bottom: 12px;
+}
+#main .right{
+	width: 390px;
+}
+#main .right ul li{
+	padding-left: 20px;
+	margin:30px 0 0 40px;
+}
+#main .right ul li img{
+	display: block;
+	padding-left: 7px;
+	padding-bottom: 3px;
+}
+
+/* footer */
+.footer{
+	margin-top: 20px;
+	padding-left: 200px;
+	padding-bottom: 30px;
+}
